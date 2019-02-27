@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="UnfinishedDiamond">
+    <defName>UnfinishedDiamond</defName>
+    <thingClass>UnfinishedThing</thingClass>
+    <category>Item</category>
+    <label>unfinished cut diamond</label>
+    <graphicData>
+      <texPath>Items/Resource/Diamond/Crystal/Crystal_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <useHitPoints>true</useHitPoints>
+    <isUnfinishedThing>true</isUnfinishedThing>
+    <selectable>true</selectable>
+    <tradeability>None</tradeability>
+    <drawerType>RealtimeOnly</drawerType>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.8</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories>
+      <li>Unfinished</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="UnfinishedCleavedDiamond">
+    <defName>UnfinishedCrystalDiamond</defName>
+    <thingClass>UnfinishedThing</thingClass>
+    <category>Item</category>
+    <label>unfinished diamond crystal</label>
+    <graphicData>
+      <texPath>Items/Resource/Diamond/Rock/RockDA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <useHitPoints>true</useHitPoints>
+    <isUnfinishedThing>true</isUnfinishedThing>
+    <selectable>true</selectable>
+    <tradeability>None</tradeability>
+    <drawerType>RealtimeOnly</drawerType>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.8</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories>
+      <li>Unfinished</li>
+    </thingCategories> 
+  </ThingDef>
+
+</Defs>

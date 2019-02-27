@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RockBase">
+    <defName>Kimberlite</defName>
+    <label>Kimberlite</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(107, 97, 97)</color>
+      <colorTwo>(150,210,240)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+    </statBases>
+    <description>Rock containing bits of diamond.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>DiamondRock</mineableThing>
+      <mineableYield>2</mineableYield>
+      <mineableScatterCommonality>0.065</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>2</min>
+        <max>6</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+</Defs>

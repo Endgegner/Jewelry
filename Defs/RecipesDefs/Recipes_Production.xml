@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- -->
+  <RecipeDef>
+		<defName>Extract_Crystal</defName>
+		<label>extract crystal</label>
+		<description>Extract from diamond rocks.</description>
+		<jobString>Extracting crystals.</jobString>
+		<workSpeedStat>SculptingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<workAmount>875</workAmount>
+    <recipeUsers>
+        <li>TableSculpting</li>
+        <li>LaserTableSculpting</li>
+    </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DiamondRock</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+        <li>DiamondRock</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CrystalDiamond>3</CrystalDiamond>
+		</products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+			<Artistic>4</Artistic>
+    </skillRequirements>
+	</RecipeDef>
+
+  <RecipeDef>
+		<defName>Cut_DCrystal</defName>
+		<label>cut diamond crystal</label>
+		<description>Cut diamond crystal to give it the shape of a gem.</description>
+		<jobString>Cutting diamond crystal.</jobString>
+		<workSpeedStat>SculptingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<workAmount>1000</workAmount>
+    <recipeUsers>
+        <li>TableSculpting</li>
+        <li>LaserTableSculpting</li>
+    </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CrystalDiamond</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+                <li>CrystalDiamond</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<DiamondCut>1</DiamondCut>
+		</products>
+    <researchPrerequisite>CuttingGems</researchPrerequisite>
+    <skillRequirements>
+      <Artistic>4</Artistic>
+    </skillRequirements>
+	</RecipeDef><!-- -->
+
+</Defs>

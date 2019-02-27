@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThoughtDef>
+    <defName>WearingRing</defName>
+    <workerClass>jewelry.ThoughWorker_WearingDiamondRing</workerClass>
+    <stages>
+      <li>
+        <label>Wearing diamond ring</label>
+        <description>I'm wearing an extremely valuable diamond ring.</description>
+        <baseMoodEffect>+5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

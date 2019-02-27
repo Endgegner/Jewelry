@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_Gladius"]/stuffCategories</xpath>
+        <value>
+            <li>Diamond</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/stuffCategories</xpath>
+        <value>
+            <li>Diamond</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_Knife"]/stuffCategories</xpath>
+        <value>
+            <li>Diamond</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_Ikwa"]/stuffCategories</xpath>
+        <value>
+            <li>Diamond</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_Spear"]/stuffCategories</xpath>
+        <value>
+            <li>Diamond</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsSculpt"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>LaserTableSculpting</li>
+		</value>
+	</Operation>
+</Patch>
