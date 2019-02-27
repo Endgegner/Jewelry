@@ -15,7 +15,6 @@
       <texPath>Items/Apparel/DNecklace/diamond_necklace</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Spacer</techLevel>
     <statBases>
       <Mass>0.14</Mass>
       <EquipDelay>0.3</EquipDelay>
@@ -31,12 +30,9 @@
       <layers>
         <li>Accessories</li>
       </layers>
-      <tags>
-        <li>IndustrialBasic</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
     </apparel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
   </ThingDef>
 </Defs>

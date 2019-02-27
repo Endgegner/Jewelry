@@ -42,4 +42,25 @@
 			<li>LaserTableSculpting</li>
 		</value>
 	</Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SculptureSmall"]/stuffCategories</xpath>
+        <value>
+            <li>Diamond</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SculptureLarge"]/stuffCategories</xpath>
+        <value>
+            <li>Diamond</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SculptureGrand"]/stuffCategories</xpath>
+        <value>
+            <li>Diamond</li>
+        </value>
+    </Operation>
 </Patch>

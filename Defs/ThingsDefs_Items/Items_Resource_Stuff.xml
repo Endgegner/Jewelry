@@ -74,6 +74,9 @@
       </statFactors>
       <smeltable>false</smeltable>
     </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
   </ThingDef>
 
 </Defs>
