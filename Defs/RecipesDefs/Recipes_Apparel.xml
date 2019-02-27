@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+		<defName>Make_DiamondNecklace</defName>
+		<label>make diamond necklace</label>
+		<description>Make diamond necklace.</description>
+		<jobString>Making diamond necklace.</jobString>
+		<workSpeedStat>SculptingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<workAmount>1000</workAmount>
+    <recipeUsers>
+        <li>LaserTableSculpting</li>
+    </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DiamondCut</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+                <li>DiamondCut</li>
+                <li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Jewelry_DiamondNecklace>1</Jewelry_DiamondNecklace>
+		</products>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+            <Artistic>5</Artistic>
+        </skillRequirements>
+        <researchPrerequisite>NecklaceCrafting</researchPrerequisite>
+	</RecipeDef>
+</Defs>

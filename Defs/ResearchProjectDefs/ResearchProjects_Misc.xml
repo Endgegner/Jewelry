@@ -23,7 +23,21 @@
 		<techLevel>Industrial</techLevel>
 		<tab>Jewelery</tab>
 		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
-	
+
+	<ResearchProjectDef>
+		<defName>NecklaceCrafting</defName>
+		<label>Necklace Crafting</label>
+		<description>Learn how to craft necklaces.</description>
+		<baseCost>550</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>CuttingGems</li>
+		</prerequisites>
+		<tab>Jewelery</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
 </Defs>
