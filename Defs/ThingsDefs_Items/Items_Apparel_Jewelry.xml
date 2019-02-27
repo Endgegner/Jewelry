@@ -15,6 +15,7 @@
       <texPath>Items/Apparel/DNecklace/diamond_necklace</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <techLevel>Spacer</techLevel>
     <statBases>
       <Mass>0.14</Mass>
       <EquipDelay>0.3</EquipDelay>
