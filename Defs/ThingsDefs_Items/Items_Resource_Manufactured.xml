@@ -59,7 +59,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>JadeCut</defName>
-    <label>cutted ruby</label>
+    <label>cutted jade</label>
     <description>A ruby that was carefully cut to enhance its beauty. It is valuable.</description>
     <graphicData>
       <texPath>Items/Resource/Jade/Cut</texPath>

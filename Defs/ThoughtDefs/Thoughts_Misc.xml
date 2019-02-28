@@ -3,11 +3,23 @@
   
   <ThoughtDef>
     <defName>WearingNecklace</defName>
-    <workerClass>jewelry.ThoughWorker_WearingDiamondNecklace</workerClass>
+    <workerClass>jewelry.ThoughWorker_WearingNecklace</workerClass>
     <stages>
       <li>
-        <label>Wearing diamond necklace</label>
-        <description>I'm wearing an extremely valuable diamond and gold necklace.</description>
+        <label>Wearing necklace</label>
+        <description>I'm wearing an extremely valuable gold and gems necklace.</description>
+        <baseMoodEffect>+5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>WearingRing</defName>
+    <workerClass>jewelry.ThoughWorker_WearingRing</workerClass>
+    <stages>
+      <li>
+        <label>Wearing ring</label>
+        <description>I'm wearing an extremely valuable gold and gems ring.</description>
         <baseMoodEffect>+5</baseMoodEffect>
       </li>
     </stages>

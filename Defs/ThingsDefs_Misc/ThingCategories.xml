@@ -13,4 +13,10 @@
       <parent>Jewelry</parent>
     </ThingCategoryDef>
 
+    <ThingCategoryDef>
+      <defName>Ring</defName>
+      <label>ring</label>
+      <parent>Jewelry</parent>
+    </ThingCategoryDef>
+
 </Defs>
