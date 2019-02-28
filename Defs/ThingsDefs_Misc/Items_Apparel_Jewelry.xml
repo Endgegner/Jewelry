@@ -36,7 +36,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="Necklace" Name="DiamondNecklace">
+  <ThingDef ParentName="Necklace" Name="RubyNecklace">
     <defName>Jewelry_RubyNecklace</defName>
     <label>ruby necklace</label>
     <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
@@ -65,9 +65,9 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="Necklace" Name="DiamondNecklace">
+  <ThingDef ParentName="Necklace" Name="JadeNecklace">
     <defName>Jewelry_JadeNecklace</defName>
-    <label>diamond necklace</label>
+    <label>jade necklace</label>
     <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
     <graphicData>
       <texPath>Items/Apparel/JNecklace/jade_necklace</texPath>
