@@ -7,7 +7,7 @@
     <description>A workbench equipped with laser. Used for artistic sculpting and diamond refining. Need power.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/TableSculpting</texPath>
+      <texPath>Building/LaserBench/LaserBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
       <shadowData>
@@ -67,7 +67,11 @@
       <li Class="CompProperties_Breakdownable" />
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>4</heatPerSecond>
+        <heatPerSecond>6</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(73,123,138,0)</glowColor>
       </li>
     </comps>
     <researchPrerequisites>

@@ -3,12 +3,12 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>DiamondCut</defName>
-    <label>cut diamond</label>
+    <label>cutted diamond</label>
     <description>A diamond that was carefully cut to enhance its beauty. It is very valuable.</description>
     <graphicData>
       <texPath>Items/Resource/Diamond/Cut</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.60</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -18,6 +18,62 @@
       <MarketValue>2000</MarketValue>
       <Mass>0.07</Mass>
       <Beauty>10</Beauty>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>RubyCut</defName>
+    <label>cutted ruby</label>
+    <description>A ruby that was carefully cut to enhance its beauty. It is valuable.</description>
+    <graphicData>
+      <texPath>Items/Resource/Ruby/Cut</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <MarketValue>1600</MarketValue>
+      <Mass>0.07</Mass>
+      <Beauty>8</Beauty>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>JadeCut</defName>
+    <label>cutted ruby</label>
+    <description>A ruby that was carefully cut to enhance its beauty. It is valuable.</description>
+    <graphicData>
+      <texPath>Items/Resource/Jade/Cut</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <MarketValue>1600</MarketValue>
+      <Mass>0.07</Mass>
+      <Beauty>8</Beauty>
       <Flammability>0</Flammability>
       <DeteriorationRate>0</DeteriorationRate>
     </statBases>

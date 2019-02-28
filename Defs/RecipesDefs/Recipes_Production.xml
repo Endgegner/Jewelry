@@ -1,42 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!-- -->
-  <RecipeDef>
-		<defName>Extract_Crystal</defName>
-		<label>extract crystal</label>
-		<description>Extract from diamond rocks.</description>
-		<jobString>Extracting crystals.</jobString>
-		<workSpeedStat>SculptingSpeed</workSpeedStat>
-		<effectWorking>CutStone</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<workAmount>875</workAmount>
-    <recipeUsers>
-        <li>TableSculpting</li>
-        <li>LaserTableSculpting</li>
-    </recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>DiamondRock</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-        <li>DiamondRock</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<CrystalDiamond>3</CrystalDiamond>
-		</products>
-    <skillRequirements>
-      <Crafting>4</Crafting>
-			<Artistic>4</Artistic>
-    </skillRequirements>
-	</RecipeDef>
 
   <RecipeDef>
 		<defName>Cut_DCrystal</defName>
@@ -63,7 +26,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-                <li>CrystalDiamond</li>
+        <li>CrystalDiamond</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -71,6 +34,83 @@
 		</products>
     <researchPrerequisite>CuttingGems</researchPrerequisite>
     <skillRequirements>
+			<Crafting>10</Crafting>
+      <Artistic>6</Artistic>
+    </skillRequirements>
+	</RecipeDef><!-- -->
+
+	<RecipeDef>
+		<defName>Cut_RCrystal</defName>
+		<label>cut ruby crystal</label>
+		<description>Cut ruby crystal to give it the shape of a gem.</description>
+		<jobString>Cutting ruby crystal.</jobString>
+		<workSpeedStat>SculptingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<workAmount>900</workAmount>
+    <recipeUsers>
+        <li>TableSculpting</li>
+        <li>LaserTableSculpting</li>
+    </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CrystalRuby</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+        <li>CrystalRuby</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<RubyCut>1</RubyCut>
+		</products>
+    <researchPrerequisite>CuttingGems</researchPrerequisite>
+    <skillRequirements>
+			<Crafting>6</Crafting>
+      <Artistic>4</Artistic>
+    </skillRequirements>
+	</RecipeDef><!-- -->
+
+	<RecipeDef>
+		<defName>Cut_JCrystal</defName>
+		<label>cut jade crystal</label>
+		<description>Cut jade crystal to give it the shape of a gem.</description>
+		<jobString>Cutting jade crystal.</jobString>
+		<workSpeedStat>SculptingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<workAmount>900</workAmount>
+    <recipeUsers>
+        <li>TableSculpting</li>
+        <li>LaserTableSculpting</li>
+    </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Jade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+        <li>Jade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<JadeCut>1</JadeCut>
+		</products>
+    <researchPrerequisite>CuttingGems</researchPrerequisite>
+    <skillRequirements>
+			<Crafting>6</Crafting>
       <Artistic>4</Artistic>
     </skillRequirements>
 	</RecipeDef><!-- -->

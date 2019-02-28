@@ -17,7 +17,33 @@
     <description>Rock containing bits of diamond.</description>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>DiamondRock</mineableThing>
+      <mineableThing>CrystalDiamond</mineableThing>
+      <mineableYield>2</mineableYield>
+      <mineableScatterCommonality>0.065</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>2</min>
+        <max>6</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>RubyStone</defName>
+    <label>rubystone</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(107, 97, 97)</color>
+      <colorTwo>(97,0,15)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+    </statBases>
+    <description>Rock containing bits of diamond.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CrystalDiamond</mineableThing>
       <mineableYield>2</mineableYield>
       <mineableScatterCommonality>0.065</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>

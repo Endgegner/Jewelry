@@ -4,35 +4,35 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="MeleeWeapon_Gladius"]/stuffCategories</xpath>
         <value>
-            <li>Diamond</li>
+            <li>Gemstones</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/stuffCategories</xpath>
         <value>
-            <li>Diamond</li>
+            <li>Gemstones</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="MeleeWeapon_Knife"]/stuffCategories</xpath>
         <value>
-            <li>Diamond</li>
+            <li>Gemstones</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="MeleeWeapon_Ikwa"]/stuffCategories</xpath>
         <value>
-            <li>Diamond</li>
+            <li>Gemstones</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="MeleeWeapon_Spear"]/stuffCategories</xpath>
         <value>
-            <li>Diamond</li>
+            <li>Gemstones</li>
         </value>
     </Operation>
 
@@ -46,21 +46,21 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="SculptureSmall"]/stuffCategories</xpath>
         <value>
-            <li>Diamond</li>
+            <li>Gemstones</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="SculptureLarge"]/stuffCategories</xpath>
         <value>
-            <li>Diamond</li>
+            <li>Gemstones</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="SculptureGrand"]/stuffCategories</xpath>
         <value>
-            <li>Diamond</li>
+            <li>Gemstones</li>
         </value>
     </Operation>
 </Patch>

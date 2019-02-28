@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="ResourceBase">
-    <defName>DiamondRock</defName>
-    <label>diamond rock</label>
-    <description>A rock containing diamond.</description>
-    <graphicData>
-      <texPath>Items/Resource/Diamond/Rock</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <soundInteract>Silver_Drop</soundInteract>
-    <soundDrop>Silver_Drop</soundDrop>
-    <useHitPoints>false</useHitPoints>
-    <statBases>
-      <MarketValue>7</MarketValue>
-      <Mass>0.8</Mass>
-    </statBases>
-    <thingCategories>
-      <li>ResourcesRaw</li>
-    </thingCategories>
-    <stackLimit>1</stackLimit>
-    <smallVolume>false</smallVolume>
-    <deepCommonality>1</deepCommonality>
-    <deepCountPerPortion>10</deepCountPerPortion>
-    <deepLumpSizeRange>
-      <min>1</min>
-      <max>5</max>
-    </deepLumpSizeRange>
-  </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>CrystalDiamond</defName>
     <label>diamond crystal</label>
-    <description>A simple diamond crystal, more value than diamond rocks.</description>
+    <description>A simple diamond crystal.</description>
     <graphicData>
         <texPath>Items/Resource/Diamond/Crystal</texPath>
         <graphicClass>Graphic_StackCount</graphicClass>
@@ -39,6 +12,13 @@
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
     <stackLimit>15</stackLimit>
+    <smallVolume>false</smallVolume>
+    <deepCommonality>1</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>
+      <min>1</min>
+      <max>5</max>
+    </deepLumpSizeRange>
     <statBases>
         <MarketValue>200</MarketValue>
         <Mass>0.2</Mass>
@@ -48,12 +28,12 @@
         <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
     </statBases>
     <thingCategories>
-      <li>Manufactured</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
     <stuffProps>
       <stuffAdjective>diamond</stuffAdjective>
       <categories>
-        <li>Diamond</li>
+        <li>Gemstones</li>
       </categories>
       <commonality>0.05</commonality>
       <color>(142,216,217)</color>
@@ -71,6 +51,64 @@
         <WorkToMake>0.9</WorkToMake>
         <WorkToBuild>0.9</WorkToBuild>
         <MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <smeltable>false</smeltable>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>CrystalRuby</defName>
+    <label>ruby crystal</label>
+    <description>A simple ruby crystal.</description>
+    <graphicData>
+        <texPath>Items/Resource/Ruby/Crystal</texPath>
+        <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <stackLimit>15</stackLimit>
+    <smallVolume>false</smallVolume>
+    <deepCommonality>1</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>
+      <min>1</min>
+      <max>5</max>
+    </deepLumpSizeRange>
+    <statBases>
+        <MarketValue>150</MarketValue>
+        <Mass>0.2</Mass>
+        <Flammability>0</Flammability>
+        <DeteriorationRate>0</DeteriorationRate>
+        <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
+        <BluntDamageMultiplier>1.02</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stuffProps>
+      <stuffAdjective>ruby</stuffAdjective>
+      <categories>
+        <li>Gemstones</li>
+      </categories>
+      <commonality>0.05</commonality>
+      <color>(97,0,15)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>17</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.15</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <Beauty>6</Beauty>
+        <WorkToMake>0.9</WorkToMake>
+        <WorkToBuild>0.9</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
       <smeltable>false</smeltable>
     </stuffProps>
