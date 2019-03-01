@@ -8,6 +8,7 @@
     <graphicData>
         <texPath>Items/Resource/Diamond/Crystal</texPath>
         <graphicClass>Graphic_StackCount</graphicClass>
+        <drawSize>0.75</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>

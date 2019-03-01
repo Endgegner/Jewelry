@@ -4,16 +4,12 @@
   <ThingDef ParentName="BenchBase">
     <defName>LaserTableSculpting</defName>
     <label>laser sculptor's table</label>
-    <description>A workbench equipped with laser. Used for artistic sculpting and diamond refining. Need power.</description>
+    <description>A workbench equipped with laser. Used for artistic sculpting and gems refining. Need power.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Building/LaserBench/LaserBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
-      <shadowData>
-        <volume>(2.9, 0.3, 0.5)</volume>
-        <offset>(0, 0, 0)</offset>
-      </shadowData>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -22,21 +18,17 @@
       </damageData>
     </graphicData>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>160</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
-    <costStuffCount>75</costStuffCount>
-    <stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
       <WorkToBuild>3500</WorkToBuild>
       <MaxHitPoints>230</MaxHitPoints>
-      <Flammability>0.5</Flammability>
-      <Cleanliness>-3</Cleanliness>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-2</Cleanliness>
       <WorkTableWorkSpeedFactor>2</WorkTableWorkSpeedFactor>
     </statBases>
     <size>(3,1)</size>
@@ -46,17 +38,18 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-      <unpoweredWorkTableWorkSpeedFactor>0.35</unpoweredWorkTableWorkSpeedFactor>
+      <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
     </building>
     <comps>
       <li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>200</basePowerConsumption>
+				<basePowerConsumption>400</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable" />
       <li Class="CompProperties_AffectedByFacilities">
@@ -65,15 +58,12 @@
         </linkableFacilities>
       </li>
       <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>6</heatPerSecond>
-      </li>
       <li Class="CompProperties_Glower">
-        <glowRadius>5</glowRadius>
-        <glowColor>(73,123,138,0)</glowColor>
+        <glowRadius>3</glowRadius>
+        <glowColor>(195,0,0,0)</glowColor>
       </li>
     </comps>
+    <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
       <li>LaserSculpting</li>
     </researchPrerequisites>
@@ -82,65 +72,5 @@
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
-
-<!--
-  <ThingDef ParentName="BuildingBase">
-    <defName>AllotropyMachine</defName>
-    <techLevel>Industrial</techLevel>
-    <label>allotropy machine</label>
-    <description>A machine to accelerate the transformation of carbone into diamond. Be careful, generate a lot of heat !!</description>
-    <thingClass>Building_FermentingBarrel</thingClass>
-    <graphicData>
-      <texPath>Things/Building/Production/FermentingBarrel</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <damageData>
-        <rect>(0.05,0.1,0.9,0.9)</rect>
-      </damageData>
-      <shadowData>
-        <volume>(0.75, 0.35, 0.33)</volume>
-      </shadowData>
-    </graphicData>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.45</fillPercent>
-    <pathCost>60</pathCost>
-    <thingCategories>
-      <li>BuildingsProduction</li>
-    </thingCategories>
-    <statBases>
-      <WorkToBuild>4000</WorkToBuild>
-      <Mass>30</Mass>
-      <MaxHitPoints>250</MaxHitPoints>
-      <Flammability>0</Flammability>
-    </statBases>
-    <costList>
-      <Steel>60</Steel>
-      <Plasteel>30</Plasteel>
-      <ComponentIndustrial>5</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
-      <DiamondCut>2</DiamondCut>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>400</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>10</heatPerSecond>
-      </li>
-    </comps>
-    <tickerType>Rare</tickerType>
-    <rotatable>true</rotatable>
-    <designationCategory>Production</designationCategory>
-    <constructEffect>ConstructWood</constructEffect>
-    <researchPrerequisites>
-      <li>Brewing</li>
-    </researchPrerequisites>
-  </ThingDef>
--->
 
 </Defs>
