@@ -4,12 +4,12 @@
   <RecipeDef>
 		<defName>Cut_DCrystal</defName>
 		<label>cut diamond crystal</label>
-		<description>Cut diamond crystal to give it the shape of a gem.</description>
-		<jobString>Cutting diamond crystal.</jobString>
+		<description>Cut raw diamond to give it the shape of a gem.</description>
+		<jobString>Cutting raw diamond.</jobString>
 		<workSpeedStat>SculptingSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<workAmount>1000</workAmount>
+		<workAmount>1100</workAmount>
     <recipeUsers>
         <li>TableSculpting</li>
         <li>LaserTableSculpting</li>
@@ -18,7 +18,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>CrystalDiamond</li>
+						<li>RawDiamond</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -26,7 +26,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-        <li>CrystalDiamond</li>
+        <li>RawDiamond</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -37,7 +37,7 @@
 			<Crafting>10</Crafting>
       <Artistic>6</Artistic>
     </skillRequirements>
-	</RecipeDef><!-- -->
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>Cut_RCrystal</defName>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="Bracelet" ParentName="ApparelBase" Abstract="True">
+        <thingCategories>
+          <li>Bracelet</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="Bracelet" Name="GoldBracelet">
+    <defName>Jewelry_GoldBracelet</defName>
+    <label>gold bracelet</label>
+    <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
+    <graphicData>
+      <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.4</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>0.06</Mass>
+      <EquipDelay>0.2</EquipDelay>
+      <Beauty>10</Beauty>
+      <MarketValue>550</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>LeftHand</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Accessories</li>
+      </layers>
+    </apparel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+        <li>
+			<compClass>CompQuality</compClass>
+		</li>
+    </comps>
+  </ThingDef>
+</Defs>

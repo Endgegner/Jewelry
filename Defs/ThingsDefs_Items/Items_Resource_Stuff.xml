@@ -2,9 +2,9 @@
 <Defs>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>CrystalDiamond</defName>
-    <label>diamond crystal</label>
-    <description>A simple diamond crystal.</description>
+    <defName>RawDiamond</defName>
+    <label>raw diamond</label>
+    <description>A simple raw diamond.</description>
     <graphicData>
         <texPath>Items/Resource/Diamond/Crystal</texPath>
         <graphicClass>Graphic_StackCount</graphicClass>
@@ -12,7 +12,7 @@
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
-    <stackLimit>15</stackLimit>
+    <stackLimit>75</stackLimit>
     <smallVolume>false</smallVolume>
     <deepCommonality>1</deepCommonality>
     <deepCountPerPortion>10</deepCountPerPortion>
@@ -37,7 +37,7 @@
         <li>Gemstones</li>
       </categories>
       <commonality>0.05</commonality>
-      <color>(142,216,217)</color>
+      <color>(18,172,233)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>

@@ -19,4 +19,10 @@
       <parent>Jewelry</parent>
     </ThingCategoryDef>
 
+    <ThingCategoryDef>
+      <defName>Bracelet</defName>
+      <label>bracelet</label>
+      <parent>Jewelry</parent>
+    </ThingCategoryDef>
+
 </Defs>
