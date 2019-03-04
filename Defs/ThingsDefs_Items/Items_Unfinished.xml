@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="UnfinishedDiamond">
+  <ThingDef Name="UnfinishedCDiamond">
     <defName>UnfinishedDiamond</defName>
     <thingClass>UnfinishedThing</thingClass>
     <category>Item</category>
@@ -31,13 +31,13 @@
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="UnfinishedCleavedDiamond">
-    <defName>UnfinishedCrystalDiamond</defName>
+  <ThingDef Name="UnfinishedRuby">
+    <defName>UnfinishedRuby</defName>
     <thingClass>UnfinishedThing</thingClass>
     <category>Item</category>
-    <label>unfinished diamond crystal</label>
+    <label>unfinished cut ruby</label>
     <graphicData>
-      <texPath>Items/Resource/Diamond/Rock/RockDA</texPath>
+      <texPath>Items/Resource/Ruby/Crystal/Crystal_a</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
@@ -58,7 +58,67 @@
     <pathCost>15</pathCost>
     <thingCategories>
       <li>Unfinished</li>
-    </thingCategories> 
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="UnfinishedJade">
+    <defName>UnfinishedJade</defName>
+    <thingClass>UnfinishedThing</thingClass>
+    <category>Item</category>
+    <label>unfinished cut jade</label>
+    <graphicData>
+      <texPath>Items/Resource/Jade/Raw/Jade_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <useHitPoints>true</useHitPoints>
+    <isUnfinishedThing>true</isUnfinishedThing>
+    <selectable>true</selectable>
+    <tradeability>None</tradeability>
+    <drawerType>RealtimeOnly</drawerType>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.8</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories>
+      <li>Unfinished</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="UnfinishedSapphire">
+    <defName>UnfinishedSapphire</defName>
+    <thingClass>UnfinishedThing</thingClass>
+    <category>Item</category>
+    <label>unfinished cut sapphire</label>
+    <graphicData>
+      <texPath>Items/Resource/Sapphir/Raw/crystal_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <useHitPoints>true</useHitPoints>
+    <isUnfinishedThing>true</isUnfinishedThing>
+    <selectable>true</selectable>
+    <tradeability>None</tradeability>
+    <drawerType>RealtimeOnly</drawerType>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.8</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories>
+      <li>Unfinished</li>
+    </thingCategories>
   </ThingDef>
 
 </Defs>

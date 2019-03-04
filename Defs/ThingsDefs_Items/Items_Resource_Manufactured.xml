@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>DiamondCut</defName>
-    <label>cutted diamond</label>
+    <label>cut diamond</label>
     <description>A diamond that was carefully cut to enhance its beauty. It is very valuable.</description>
     <graphicData>
       <texPath>Items/Resource/Diamond/Cut</texPath>
@@ -12,7 +12,7 @@
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
-    <stackLimit>15</stackLimit>
+    <stackLimit>75</stackLimit>
     <statBases>
       <MaxHitPoints>25</MaxHitPoints>
       <MarketValue>2000</MarketValue>
@@ -20,6 +20,7 @@
       <Beauty>10</Beauty>
       <Flammability>0</Flammability>
       <DeteriorationRate>0</DeteriorationRate>
+      <WorkToMake>15000</WorkToMake>
     </statBases>
     <thingCategories>
       <li>Manufactured</li>
@@ -27,20 +28,38 @@
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>
+    <!-- ====== Recipe ====== -->
+    <costList>
+      <RawDiamond>1</RawDiamond>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <recipeUsers>
+        <li>TableSculpting</li>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>CuttingGems</researchPrerequisite>
+      <skillRequirements>
+				<Crafting>10</Crafting>
+        <Artistic>6</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedDiamond</unfinishedThingDef>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>RubyCut</defName>
-    <label>cutted ruby</label>
+    <label>cut ruby</label>
     <description>A ruby that was carefully cut to enhance its beauty. It is valuable.</description>
     <graphicData>
       <texPath>Items/Resource/Ruby/Cut</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.60</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
-    <stackLimit>15</stackLimit>
+    <stackLimit>75</stackLimit>
     <statBases>
       <MaxHitPoints>20</MaxHitPoints>
       <MarketValue>1600</MarketValue>
@@ -48,6 +67,7 @@
       <Beauty>8</Beauty>
       <Flammability>0</Flammability>
       <DeteriorationRate>0</DeteriorationRate>
+      <WorkToMake>11000</WorkToMake>
     </statBases>
     <thingCategories>
       <li>Manufactured</li>
@@ -55,27 +75,46 @@
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>
+    <!-- ====== Recipe ====== -->
+    <costList>
+      <RawRuby>1</RawRuby>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <recipeUsers>
+        <li>TableSculpting</li>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>CuttingGems</researchPrerequisite>
+      <skillRequirements>
+				<Crafting>6</Crafting>
+        <Artistic>4</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedRuby</unfinishedThingDef>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>JadeCut</defName>
-    <label>cutted jade</label>
-    <description>A ruby that was carefully cut to enhance its beauty. It is valuable.</description>
+    <label>cut jade</label>
+    <description>Jade that was carefully cut to enhance its beauty. It is valuable.</description>
     <graphicData>
       <texPath>Items/Resource/Jade/Cut</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.6</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
-    <stackLimit>15</stackLimit>
+    <stackLimit>75</stackLimit>
     <statBases>
       <MaxHitPoints>20</MaxHitPoints>
-      <MarketValue>1600</MarketValue>
+      <MarketValue>1500</MarketValue>
       <Mass>0.07</Mass>
       <Beauty>8</Beauty>
       <Flammability>0</Flammability>
       <DeteriorationRate>0</DeteriorationRate>
+      <WorkToMake>10000</WorkToMake>
     </statBases>
     <thingCategories>
       <li>Manufactured</li>
@@ -83,6 +122,71 @@
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>
+    <!-- ====== Recipe ====== -->
+    <costList>
+      <Jade>1</Jade>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <recipeUsers>
+        <li>TableSculpting</li>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>CuttingGems</researchPrerequisite>
+      <skillRequirements>
+				<Crafting>6</Crafting>
+        <Artistic>4</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedJade</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SapphireCut</defName>
+    <label>cut sapphire</label>
+    <description>Sapphire that was carefully cut to enhance its beauty. It is valuable.</description>
+    <graphicData>
+      <texPath>Items/Resource/Sapphir/Cut</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.6</drawSize>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <MarketValue>1500</MarketValue>
+      <Mass>0.07</Mass>
+      <Beauty>8</Beauty>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <WorkToMake>10000</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <!-- ====== Recipe ====== -->
+    <costList>
+      <RawSapphire>1</RawSapphire>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <recipeUsers>
+        <li>TableSculpting</li>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>CuttingGems</researchPrerequisite>
+      <skillRequirements>
+				<Crafting>6</Crafting>
+        <Artistic>4</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedSapphire</unfinishedThingDef>
+    </recipeMaker>
   </ThingDef>
 
 </Defs>

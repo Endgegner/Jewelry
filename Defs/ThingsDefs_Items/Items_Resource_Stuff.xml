@@ -21,7 +21,7 @@
       <max>5</max>
     </deepLumpSizeRange>
     <statBases>
-        <MarketValue>200</MarketValue>
+        <MarketValue>600</MarketValue>
         <Mass>0.2</Mass>
         <Flammability>0</Flammability>
         <DeteriorationRate>0</DeteriorationRate>
@@ -61,16 +61,17 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>CrystalRuby</defName>
-    <label>ruby crystal</label>
-    <description>A simple ruby crystal.</description>
+    <defName>RawRuby</defName>
+    <label>raw ruby</label>
+    <description>A simple raw ruby.</description>
     <graphicData>
         <texPath>Items/Resource/Ruby/Crystal</texPath>
         <graphicClass>Graphic_StackCount</graphicClass>
+        <drawSize>0.75</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
-    <stackLimit>15</stackLimit>
+    <stackLimit>75</stackLimit>
     <smallVolume>false</smallVolume>
     <deepCommonality>1</deepCommonality>
     <deepCountPerPortion>10</deepCountPerPortion>
@@ -79,40 +80,47 @@
       <max>5</max>
     </deepLumpSizeRange>
     <statBases>
-        <MarketValue>150</MarketValue>
+        <MarketValue>500</MarketValue>
         <Mass>0.2</Mass>
         <Flammability>0</Flammability>
         <DeteriorationRate>0</DeteriorationRate>
-        <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
-        <BluntDamageMultiplier>1.02</BluntDamageMultiplier>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <stuffProps>
-      <stuffAdjective>ruby</stuffAdjective>
-      <categories>
-        <li>Gemstones</li>
-      </categories>
-      <commonality>0.05</commonality>
-      <color>(97,0,15)</color>
-      <constructEffect>ConstructMetal</constructEffect>
-      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-      <statOffsets>
-        <Beauty>17</Beauty>
-      </statOffsets>
-      <statFactors>
-        <MaxHitPoints>0.15</MaxHitPoints>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>RawSapphire</defName>
+    <label>raw sapphire</label>
+    <description>A simple raw sapphire.</description>
+    <graphicData>
+        <texPath>Items/Resource/Sapphir/Raw</texPath>
+        <graphicClass>Graphic_StackCount</graphicClass>
+        <drawSize>0.75</drawSize>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <smallVolume>false</smallVolume>
+    <deepCommonality>1</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>
+      <min>1</min>
+      <max>5</max>
+    </deepLumpSizeRange>
+    <statBases>
+        <MarketValue>550</MarketValue>
+        <Mass>0.2</Mass>
         <Flammability>0</Flammability>
-        <Beauty>6</Beauty>
-        <WorkToMake>0.9</WorkToMake>
-        <WorkToBuild>0.9</WorkToBuild>
-        <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
-      </statFactors>
-      <smeltable>false</smeltable>
-    </stuffProps>
+        <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>

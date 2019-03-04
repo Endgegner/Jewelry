@@ -29,7 +29,7 @@
 
   <ThingDef ParentName="RockBase">
     <defName>RubyStone</defName>
-    <label>rubystone</label>
+    <label>ruby ore</label>
     <graphicData>
       <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -45,7 +45,33 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>RawDiamond</mineableThing>
       <mineableYield>2</mineableYield>
-      <mineableScatterCommonality>0.065</mineableScatterCommonality>
+      <mineableScatterCommonality>0.08</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>2</min>
+        <max>6</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>SapphireStone</defName>
+    <label>sapphire ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(107, 97, 97)</color>
+      <colorTwo>(13,77,240)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <description>Rock containing bits of sapphire.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>RawSapphire</mineableThing>
+      <mineableYield>2</mineableYield>
+      <mineableScatterCommonality>0.08</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>2</min>
         <max>6</max>
