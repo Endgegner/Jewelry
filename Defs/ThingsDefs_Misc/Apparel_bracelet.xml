@@ -62,7 +62,7 @@
 
   <ThingDef ParentName="Bracelet" Name="DiamondBracelet">
     <defName>Jewelry_DiamondBracelet</defName>
-    <label>gold bracelet</label>
+    <label>diamond and gold bracelet</label>
     <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
     <graphicData>
       <texPath>Items/Apparel/Accessories/diamond_bracelet</texPath>
@@ -102,7 +102,7 @@
 
   <ThingDef ParentName="Bracelet" Name="JadeBracelet">
     <defName>Jewelry_JadeBracelet</defName>
-    <label>gold bracelet</label>
+    <label>gold and jade bracelet</label>
     <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
     <graphicData>
       <texPath>Items/Apparel/Accessories/jade_bracelet</texPath>
@@ -142,10 +142,10 @@
 
   <ThingDef ParentName="Bracelet" Name="RubyBracelet">
     <defName>Jewelry_RubyBracelet</defName>
-    <label>ruby bracelet</label>
+    <label>ruby and gold bracelet</label>
     <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
     <graphicData>
-      <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
+      <texPath>Items/Apparel/Accessories/ruby_bracelet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -182,10 +182,10 @@
 
   <ThingDef ParentName="Bracelet" Name="SapphireBracelet">
     <defName>Jewelry_SapphireBracelet</defName>
-    <label>sapphire bracelet</label>
+    <label>sapphire and gold bracelet</label>
     <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
     <graphicData>
-      <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
+      <texPath>Items/Apparel/Accessories/sapphire_bracelet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
