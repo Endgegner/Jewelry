@@ -12,17 +12,29 @@
       </li>
     </stages>
   </ThoughtDef>
-<!--
+
   <ThoughtDef>
-    <defName>WearingRing</defName>
-    <workerClass>jewelry.ThoughWorker_WearingRing</workerClass>
+    <defName>WearingGoldBracelet</defName>
+    <workerClass>jewelry.ThoughWorker_WearingGoldBracelet</workerClass>
     <stages>
       <li>
-        <label>Wearing ring</label>
-        <description>I'm wearing an extremely valuable gold and gems ring.</description>
+        <label>Wearing gold bracelet</label>
+        <description>I'm wearing a valuable gold bracelet.</description>
+        <baseMoodEffect>+3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>WearingGemsBracelet</defName>
+    <workerClass>jewelry.ThoughWorker_WearingGemsBracelet</workerClass>
+    <stages>
+      <li>
+        <label>Wearing gold and gems bracelet</label>
+        <description>I'm wearing an extremely valuable gold and gems bracelet.</description>
         <baseMoodEffect>+5</baseMoodEffect>
       </li>
     </stages>
-  </ThoughtDef>-->
+  </ThoughtDef>
 
 </Defs>

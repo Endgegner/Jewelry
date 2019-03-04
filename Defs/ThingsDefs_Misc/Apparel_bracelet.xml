@@ -2,19 +2,33 @@
 <Defs>
 
     <ThingDef Name="Bracelet" ParentName="ApparelBase" Abstract="True">
-        <thingCategories>
-          <li>Bracelet</li>
-        </thingCategories>
+      <thingCategories>
+        <li>Bracelet</li>
+      </thingCategories>
+      <apparel>
+        <bodyPartGroups>
+          <li>LeftHand</li>
+        </bodyPartGroups>
+        <layers>
+          <li>Accessories</li>
+        </layers>
+      </apparel>
+      <tradeTags>
+        <li>ExoticMisc</li>
+      </tradeTags>
+      <comps>
+        <li><compClass>CompQuality</compClass></li>
+      </comps>
     </ThingDef>
 
-    <ThingDef ParentName="Bracelet" Name="GoldBracelet">
+  <ThingDef ParentName="Bracelet" Name="GoldBracelet">
     <defName>Jewelry_GoldBracelet</defName>
     <label>gold bracelet</label>
     <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
     <graphicData>
       <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.4</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Mass>0.06</Mass>
@@ -23,23 +37,186 @@
       <MarketValue>550</MarketValue>
     </statBases>
     <equippedStatOffsets>
+      <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <!-- ===== Recipe ===== -->
+    <costList>
+      <Gold>10</Gold>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <effectWorking>CutStone</effectWorking>
+      <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+      <recipeUsers>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>JewelryCrafting</researchPrerequisite>
+      <workSkill>Artistic</workSkill>
+      <skillRequirements>
+				<Crafting>5</Crafting>
+        <Artistic>5</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="Bracelet" Name="DiamondBracelet">
+    <defName>Jewelry_DiamondBracelet</defName>
+    <label>gold bracelet</label>
+    <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
+    <graphicData>
+      <texPath>Items/Apparel/Accessories/diamond_bracelet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>0.06</Mass>
+      <EquipDelay>0.2</EquipDelay>
+      <Beauty>10</Beauty>
+      <MarketValue>1000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
       <SocialImpact>0.15</SocialImpact>
     </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>LeftHand</li>
-      </bodyPartGroups>
-      <layers>
-        <li>Accessories</li>
-      </layers>
-    </apparel>
-    <tradeTags>
-      <li>ExoticMisc</li>
-    </tradeTags>
-    <comps>
-        <li>
-			<compClass>CompQuality</compClass>
-		</li>
-    </comps>
+    <!-- ===== Recipe ===== -->
+    <costList>
+      <Gold>10</Gold>
+      <DiamondCut>1</DiamondCut>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <effectWorking>CutStone</effectWorking>
+      <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+      <recipeUsers>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>JewelryCrafting</researchPrerequisite>
+      <workSkill>Artistic</workSkill>
+      <skillRequirements>
+				<Crafting>5</Crafting>
+        <Artistic>5</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="Bracelet" Name="JadeBracelet">
+    <defName>Jewelry_JadeBracelet</defName>
+    <label>gold bracelet</label>
+    <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
+    <graphicData>
+      <texPath>Items/Apparel/Accessories/jade_bracelet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>0.06</Mass>
+      <EquipDelay>0.2</EquipDelay>
+      <Beauty>10</Beauty>
+      <MarketValue>900</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <!-- ===== Recipe ===== -->
+    <costList>
+      <Gold>10</Gold>
+      <JadeCut>1</JadeCut>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <effectWorking>CutStone</effectWorking>
+      <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+      <recipeUsers>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>JewelryCrafting</researchPrerequisite>
+      <workSkill>Artistic</workSkill>
+      <skillRequirements>
+				<Crafting>5</Crafting>
+        <Artistic>5</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="Bracelet" Name="RubyBracelet">
+    <defName>Jewelry_RubyBracelet</defName>
+    <label>ruby bracelet</label>
+    <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
+    <graphicData>
+      <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>0.06</Mass>
+      <EquipDelay>0.2</EquipDelay>
+      <Beauty>10</Beauty>
+      <MarketValue>950</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <!-- ===== Recipe ===== -->
+    <costList>
+      <Gold>10</Gold>
+      <RubyCut>1</RubyCut>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <effectWorking>CutStone</effectWorking>
+      <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+      <recipeUsers>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>JewelryCrafting</researchPrerequisite>
+      <workSkill>Artistic</workSkill>
+      <skillRequirements>
+				<Crafting>5</Crafting>
+        <Artistic>5</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="Bracelet" Name="SapphireBracelet">
+    <defName>Jewelry_SapphireBracelet</defName>
+    <label>sapphire bracelet</label>
+    <description>Worth a lot, and it gives anyone who wears it a bit of extra charm and an extra mood boost.</description>
+    <graphicData>
+      <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>0.06</Mass>
+      <EquipDelay>0.2</EquipDelay>
+      <Beauty>10</Beauty>
+      <MarketValue>900</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <!-- ===== Recipe ===== -->
+    <costList>
+      <Gold>10</Gold>
+      <SapphireCut>1</SapphireCut>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <effectWorking>CutStone</effectWorking>
+      <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+      <recipeUsers>
+        <li>LaserTableSculpting</li>
+      </recipeUsers>
+      <researchPrerequisite>JewelryCrafting</researchPrerequisite>
+      <workSkill>Artistic</workSkill>
+      <skillRequirements>
+				<Crafting>5</Crafting>
+        <Artistic>5</Artistic>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
   </ThingDef>
 </Defs>
