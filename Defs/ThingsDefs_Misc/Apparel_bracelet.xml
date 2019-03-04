@@ -28,7 +28,7 @@
     <graphicData>
       <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.5</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
       <Mass>0.06</Mass>
@@ -67,7 +67,7 @@
     <graphicData>
       <texPath>Items/Apparel/Accessories/diamond_bracelet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.5</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
       <Mass>0.06</Mass>
@@ -107,7 +107,7 @@
     <graphicData>
       <texPath>Items/Apparel/Accessories/jade_bracelet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.5</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
       <Mass>0.06</Mass>
@@ -147,7 +147,7 @@
     <graphicData>
       <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.5</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
       <Mass>0.06</Mass>
@@ -187,7 +187,7 @@
     <graphicData>
       <texPath>Items/Apparel/Accessories/gold_bracelet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.5</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
       <Mass>0.06</Mass>
