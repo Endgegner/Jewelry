@@ -25,4 +25,10 @@
       <parent>Jewelry</parent>
     </ThingCategoryDef>
 
+    <ThingCategoryDef>
+      <defName>Earrings</defName>
+      <label>earrings</label>
+      <parent>Jewelry</parent>
+    </ThingCategoryDef>
+
 </Defs>
