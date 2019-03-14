@@ -40,10 +40,10 @@
     <statBases>
       <MaxHitPoints>2000</MaxHitPoints>
     </statBases>
-    <description>Rock containing bits of diamond.</description>
+    <description>Rock containing bits of ruby.</description>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>RawDiamond</mineableThing>
+      <mineableThing>RawRuby</mineableThing>
       <mineableYield>2</mineableYield>
       <mineableScatterCommonality>0.08</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
