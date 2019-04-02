@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
     <ThingDef Name="Necklace" ParentName="ApparelBase" Abstract="True">
       <thingCategories>
         <li>Necklace</li>
@@ -16,6 +15,12 @@
       <tradeTags>
         <li>ExoticMisc</li>
       </tradeTags>
+      <statBases>
+        <DeteriorationRate>0.5</DeteriorationRate>
+      </statBases>
+      <comps>
+        <li><compClass>CompQuality</compClass></li>
+      </comps>
     </ThingDef>
 
     <ThingDef ParentName="Necklace" Name="DiamondNecklace">
