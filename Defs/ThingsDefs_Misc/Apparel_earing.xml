@@ -53,7 +53,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-		<Crafting>5</Crafting>
+		    <Crafting>5</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>

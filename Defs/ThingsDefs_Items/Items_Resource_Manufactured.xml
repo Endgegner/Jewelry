@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Items/Resource/Diamond/Cut</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.75</drawSize>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -55,7 +55,7 @@
     <graphicData>
       <texPath>Items/Resource/Ruby/Cut</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.60</drawSize>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -102,7 +102,7 @@
     <graphicData>
       <texPath>Items/Resource/Jade/Cut</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.6</drawSize>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -149,7 +149,7 @@
     <graphicData>
       <texPath>Items/Resource/Sapphir/Cut</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.6</drawSize>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
