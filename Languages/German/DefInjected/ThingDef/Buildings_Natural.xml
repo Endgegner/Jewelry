@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- german word spectrum: Erz, Vorkommen, Erzvorkommen, Lagerstätte -->
+  <DiamondOre.label>Diamantvorkommen</DiamondOre.label>
+  <DiamondOre.description>Ein Fels der kleine Stücke aus rohen Diamanten enthält.</DiamondOre.description>
+
+  <RubyStone.label>Rubinvorkommen</RubyStone.label>
+  <RubyStone.description>Ein Fels der kleine Stücke aus Rubin enthält.</RubyStone.description>
+
+  <SapphireStone.label>Saphirvorkommen</SapphireStone.label>
+  <SapphireStone.description>Ein Fels der kleine Stücke aus Saphir enthält.</SapphireStone.description>
+
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Jewelry_GoldBracelet.label>Gold-Armband</Jewelry_GoldBracelet.label>
+  <Jewelry_GoldBracelet.description>Eine stattliches Sümmchen wert. Gewährt dem Träger eine gewisse Anziehungskraft und verleiht zusätzlich einen Stimmungsbonus.</Jewelry_GoldBracelet.description>
+
+  <Jewelry_DiamondBracelet.label>Diamant Armreif aus Gold</Jewelry_DiamondBracelet.label>
+  <Jewelry_DiamondBracelet.description>Gewährt dem Träger eine gewisse Anziehungskraft und verleiht zusätzlich einen Stimmungsbonus. Wurde auf wunderschöne Art und Weise mit wertvollen Diamanten verziert.</Jewelry_DiamondBracelet.description>
+
+  <Jewelry_JadeBracelet.label>Jade Armreif aus Gold</Jewelry_JadeBracelet.label>
+  <Jewelry_JadeBracelet.description>Eine stattliches Sümmchen wert. Gewährt dem Träger eine gewisse Anziehungskraft und verbessert die Stimmung. Wurde grazil mit Jade besetzt.</Jewelry_JadeBracelet.description>
+
+  <Jewelry_RubyBracelet.label>Rubin Armreif aus Gold</Jewelry_RubyBracelet.label>
+  <Jewelry_RubyBracelet.description>Eine stattliches Sümmchen wert. Gewährt dem Träger eine gewisse Anziehungskraft und verbessert die Stimmung. Verfügt über eine feine Rubinfassung.</Jewelry_RubyBracelet.description>
+
+  <Jewelry_SapphireBracelet.label>Saphir Armreif aus Gold</Jewelry_SapphireBracelet.label>
+  <Jewelry_SapphireBracelet.description>Eine stattliches Sümmchen wert. Gewährt dem Träger eine gewisse Anziehungskraft und verbessert die Stimmung. Verfügt über eine herrliche Saphirfassung.</Jewelry_SapphireBracelet.description>
+
+</LanguageData>
