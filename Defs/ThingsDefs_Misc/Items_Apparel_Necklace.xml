@@ -44,7 +44,7 @@
     <!-- ===== Recipe ===== -->
     <costList>
       <DiamondCut>1</DiamondCut>
-      <Gold>10</Gold>
+      <Gold>20</Gold>
     </costList>
     <recipeMaker>
       <workSpeedStat>SculptingSpeed</workSpeedStat>
@@ -84,7 +84,7 @@
     <!-- ===== Recipe ===== -->
     <costList>
       <RubyCut>1</RubyCut>
-      <Gold>10</Gold>
+      <Gold>20</Gold>
     </costList>
     <recipeMaker>
       <workSpeedStat>SculptingSpeed</workSpeedStat>
@@ -114,7 +114,7 @@
     <statBases>
       <Mass>0.14</Mass>
       <EquipDelay>0.3</EquipDelay>
-      <MarketValue>1900</MarketValue>
+      <MarketValue>1200</MarketValue>
       <Beauty>10</Beauty>
       <WorkToMake>10000</WorkToMake>
     </statBases>
@@ -124,7 +124,7 @@
     <!-- ===== Recipe ===== -->
     <costList>
       <JadeCut>1</JadeCut>
-      <Gold>10</Gold>
+      <Gold>20</Gold>
     </costList>
     <recipeMaker>
       <workSpeedStat>SculptingSpeed</workSpeedStat>
@@ -164,7 +164,7 @@
     <!-- ===== Recipe ===== -->
     <costList>
       <SapphireCut>1</SapphireCut>
-      <Gold>10</Gold>
+      <Gold>20</Gold>
     </costList>
     <recipeMaker>
       <workSpeedStat>SculptingSpeed</workSpeedStat>

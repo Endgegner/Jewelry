@@ -109,7 +109,7 @@
     <stackLimit>75</stackLimit>
     <statBases>
       <MaxHitPoints>20</MaxHitPoints>
-      <MarketValue>1500</MarketValue>
+      <MarketValue>600</MarketValue>
       <Mass>0.07</Mass>
       <Beauty>8</Beauty>
       <Flammability>0</Flammability>
@@ -124,7 +124,7 @@
     </tradeTags>
     <!-- ====== Recipe ====== -->
     <costList>
-      <Jade>1</Jade>
+      <Jade>50</Jade>
     </costList>
     <recipeMaker>
       <workSpeedStat>SculptingSpeed</workSpeedStat>
