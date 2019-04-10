@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RawDiamond.label>Diamant</RawDiamond.label>
+  <RawDiamond.description>Ein einfacher roher Diamant.</RawDiamond.description>
+  <RawDiamond.stuffProps.stuffAdjective>diamond</RawDiamond.stuffProps.stuffAdjective>
+
+  <RawRuby.label>Rubin</RawRuby.label>
+  <RawRuby.description>Ein einfacher roher Rubin.</RawRuby.description>
+
+  <RawSapphire.label>Saphir</RawSapphire.label>
+  <RawSapphire.description>Ein einfacher roher Saphir.</RawSapphire.description>
+
+</LanguageData>
