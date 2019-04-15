@@ -34,7 +34,7 @@
     <statBases>
       <Mass>0.14</Mass>
       <EquipDelay>0.3</EquipDelay>
-      <MarketValue>2500</MarketValue>
+      <MarketValue>1250</MarketValue>
       <Beauty>10</Beauty>
       <WorkToMake>10000</WorkToMake>
     </statBases>
@@ -74,7 +74,7 @@
     <statBases>
       <Mass>0.14</Mass>
       <EquipDelay>0.3</EquipDelay>
-      <MarketValue>2200</MarketValue>
+      <MarketValue>1100</MarketValue>
       <Beauty>10</Beauty>
       <WorkToMake>10000</WorkToMake>
     </statBases>
@@ -96,7 +96,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>7</Crafting>
+				<Crafting>8</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -114,7 +114,7 @@
     <statBases>
       <Mass>0.14</Mass>
       <EquipDelay>0.3</EquipDelay>
-      <MarketValue>1200</MarketValue>
+      <MarketValue>800</MarketValue>
       <Beauty>10</Beauty>
       <WorkToMake>10000</WorkToMake>
     </statBases>
@@ -154,7 +154,7 @@
     <statBases>
       <Mass>0.14</Mass>
       <EquipDelay>0.3</EquipDelay>
-      <MarketValue>2200</MarketValue>
+      <MarketValue>1000</MarketValue>
       <Beauty>10</Beauty>
       <WorkToMake>10000</WorkToMake>
     </statBases>
