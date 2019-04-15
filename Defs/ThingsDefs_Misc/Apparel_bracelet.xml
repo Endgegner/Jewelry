@@ -37,14 +37,14 @@
       <Mass>0.06</Mass>
       <EquipDelay>0.2</EquipDelay>
       <Beauty>10</Beauty>
-      <MarketValue>550</MarketValue>
+      <MarketValue>400</MarketValue>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.10</SocialImpact>
+      <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <!-- ===== Recipe ===== -->
     <costList>
-      <Gold>10</Gold>
+      <Gold>25</Gold>
     </costList>
     <recipeMaker>
       <workSpeedStat>SculptingSpeed</workSpeedStat>
@@ -79,11 +79,11 @@
       <MarketValue>1000</MarketValue>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.15</SocialImpact>
+      <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <!-- ===== Recipe ===== -->
     <costList>
-      <Gold>10</Gold>
+      <Gold>20</Gold>
       <DiamondCut>1</DiamondCut>
     </costList>
     <recipeMaker>
@@ -96,7 +96,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>5</Crafting>
+				<Crafting>9</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -116,14 +116,14 @@
       <Mass>0.06</Mass>
       <EquipDelay>0.2</EquipDelay>
       <Beauty>10</Beauty>
-      <MarketValue>900</MarketValue>
+      <MarketValue>600</MarketValue>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.15</SocialImpact>
+      <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <!-- ===== Recipe ===== -->
     <costList>
-      <Gold>10</Gold>
+      <Gold>20</Gold>
       <JadeCut>1</JadeCut>
     </costList>
     <recipeMaker>
@@ -136,7 +136,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>5</Crafting>
+				<Crafting>6</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -156,14 +156,14 @@
       <Mass>0.06</Mass>
       <EquipDelay>0.2</EquipDelay>
       <Beauty>10</Beauty>
-      <MarketValue>950</MarketValue>
+      <MarketValue>700</MarketValue>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.15</SocialImpact>
+      <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <!-- ===== Recipe ===== -->
     <costList>
-      <Gold>10</Gold>
+      <Gold>20</Gold>
       <RubyCut>1</RubyCut>
     </costList>
     <recipeMaker>
@@ -176,7 +176,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>5</Crafting>
+				<Crafting>7</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -199,11 +199,11 @@
       <MarketValue>900</MarketValue>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.15</SocialImpact>
+      <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <!-- ===== Recipe ===== -->
     <costList>
-      <Gold>10</Gold>
+      <Gold>20</Gold>
       <SapphireCut>1</SapphireCut>
     </costList>
     <recipeMaker>
@@ -216,7 +216,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>5</Crafting>
+				<Crafting>8</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
