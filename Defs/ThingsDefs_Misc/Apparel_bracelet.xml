@@ -37,7 +37,7 @@
       <Mass>0.06</Mass>
       <EquipDelay>0.2</EquipDelay>
       <Beauty>10</Beauty>
-      <MarketValue>400</MarketValue>
+      <MarketValue>500</MarketValue>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.1</SocialImpact>
@@ -116,7 +116,7 @@
       <Mass>0.06</Mass>
       <EquipDelay>0.2</EquipDelay>
       <Beauty>10</Beauty>
-      <MarketValue>600</MarketValue>
+      <MarketValue>700</MarketValue>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.1</SocialImpact>
@@ -156,7 +156,7 @@
       <Mass>0.06</Mass>
       <EquipDelay>0.2</EquipDelay>
       <Beauty>10</Beauty>
-      <MarketValue>700</MarketValue>
+      <MarketValue>900</MarketValue>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.1</SocialImpact>
@@ -176,7 +176,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>7</Crafting>
+				<Crafting>8</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -196,7 +196,7 @@
       <Mass>0.06</Mass>
       <EquipDelay>0.2</EquipDelay>
       <Beauty>10</Beauty>
-      <MarketValue>900</MarketValue>
+      <MarketValue>800</MarketValue>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.1</SocialImpact>
@@ -216,7 +216,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>8</Crafting>
+				<Crafting>7</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
