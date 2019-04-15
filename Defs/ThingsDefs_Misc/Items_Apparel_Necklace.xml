@@ -56,7 +56,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>5</Crafting>
+				<Crafting>9</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -79,7 +79,7 @@
       <WorkToMake>10000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.12</SocialImpact>
+      <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <!-- ===== Recipe ===== -->
     <costList>
@@ -96,7 +96,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>5</Crafting>
+				<Crafting>7</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -119,7 +119,7 @@
       <WorkToMake>10000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.12</SocialImpact>
+      <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <!-- ===== Recipe ===== -->
     <costList>
@@ -136,7 +136,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>5</Crafting>
+				<Crafting>6</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -159,7 +159,7 @@
       <WorkToMake>10000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.12</SocialImpact>
+      <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <!-- ===== Recipe ===== -->
     <costList>
@@ -176,7 +176,7 @@
       <researchPrerequisite>JewelryCrafting</researchPrerequisite>
       <workSkill>Artistic</workSkill>
       <skillRequirements>
-				<Crafting>5</Crafting>
+				<Crafting>7</Crafting>
         <Artistic>5</Artistic>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
