@@ -16,7 +16,7 @@
         <li>ExoticMisc</li>
       </tradeTags>
       <statBases>
-        <DeteriorationRate>0.5</DeteriorationRate>
+        <DeteriorationRate>0.2</DeteriorationRate>
       </statBases>
       <comps>
         <li><compClass>CompQuality</compClass></li>
